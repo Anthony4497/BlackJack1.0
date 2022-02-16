@@ -30,7 +30,7 @@ class Game:
             bots_count = int(input('Hello, write bots count: '))
             if bots_count <= self.max_player_count - 1:
                 break
-            self.all_players_count = bots_count + 1
+        self.all_players_count = bots_count + 1
 
         for _ in range(bots_count):
             b = Player.Bot()
